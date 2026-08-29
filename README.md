@@ -32,6 +32,6 @@ Tailwind · Flutter · Firebase
 
 ### Also
 
-Afrikaans (native) · English. BSocSci (Hons), Stellenbosch.
+Afrikaans (native) · English. BSW (Hons), Stellenbosch.
 
 📫 tobeyxp@gmail.com
