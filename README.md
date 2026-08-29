@@ -15,7 +15,7 @@ followed.
 
 | Project | What it does | Built with |
 |---|---|---|
-| **[fund-manager](https://github.com/tobeyxp/fund-manager)** | Grant administration, compliance and M&E for SMME development funds. Configurable eligibility engine, CIPC verification with risk scoring, document expiry tracking, assessment workspace, DOCX report generation. Row-level security and POPIA column protection throughout. | Next.js, TypeScript, Supabase, PostgreSQL |
+| **[fund-manager](https://github.com/tobeyxp/fund-manager)** | Grant administration, compliance and M&E for SMME development funds. Configurable eligibility engine, CIPC verification with risk scoring, document expiry tracking, assessment workspace, DOCX report generation. Row-level security and POPIA column protection throughout. Ships with FundLens, a Python analytics layer measuring pipeline leakage, funding reach and concentration, and compliance risk. | Next.js, TypeScript, Supabase, PostgreSQL, Python |
 | **[inzuzo-flow](https://github.com/tobeyxp/inzuzo-flow)** | Financial management for South African SMMEs — quotes, invoices, cash sales, expenses, client records and reporting. Design language drawn from Ndebele mural art. | React, Vite, TypeScript, Supabase |
 | **[jobhunter](https://github.com/tobeyxp/jobhunter)** | Remote job discovery and application pipeline. Multi-source ingestion, fingerprint dedup, configurable eligibility filtering with live FX salary conversion, explainable scoring, and generated application packages. Every action audited. | Next.js, Prisma, PostgreSQL |
 | **[ibm-data-science-capstone](https://github.com/tobeyxp/ibm-data-science-capstone)** | Coursework. SpaceX launch-outcome prediction — API collection, web scraping, SQL EDA, folium geospatial analysis, and four classifiers compared. | Python, pandas, scikit-learn, SQL |
@@ -29,7 +29,7 @@ them on request.
 ### Working with
 
 TypeScript · React · Next.js · Node · Prisma · PostgreSQL · Supabase ·
-Tailwind · Flutter · Firebase
+Tailwind · Python · pandas · scikit-learn · Flutter · Firebase
 
 ### Certifications
 
