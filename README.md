@@ -20,7 +20,7 @@ followed.
 | **[jobhunter](https://github.com/tobeyxp/jobhunter)** | Remote job discovery and application pipeline. Multi-source ingestion, fingerprint dedup, configurable eligibility filtering with live FX salary conversion, explainable scoring, and generated application packages. Every action audited. | Next.js, Prisma, PostgreSQL |
 | **[ibm-data-science-capstone](https://github.com/tobeyxp/ibm-data-science-capstone)** | Coursework. SpaceX launch-outcome prediction — API collection, web scraping, SQL EDA, folium geospatial analysis, and four classifiers compared. | Python, pandas, scikit-learn, SQL |
 | **[meridian](https://github.com/tobeyxp/meridian)** | Quote and invoice generator. | Next.js, TypeScript |
-| **[sort-dit](https://github.com/tobeyxp/sort-dit)** | Bilingual municipal service reporting app for Nama Khoi Municipality — citizens report issues, track them, and see municipal response. | Flutter, Firebase |
+| **[sort-dit](https://github.com/tobeyxp/sort-dit)** | Bilingual municipal service reporting app for Nama Khoi Municipality — citizens report issues, track them, and see municipal response. Ships to Android and iOS via Capacitor. | React, Vite, TypeScript, Capacitor, Supabase |
 | **[newborn-radar-pro](https://github.com/tobeyxp/newborn-radar-pro)** | Solana new-token monitor. Multi-source ingestion, candle aggregation, configurable scoring, risk-limited trade planning. | TypeScript, Solana web3.js |
 
 Most of these are private while I tidy them up. Happy to walk through any of
@@ -29,7 +29,7 @@ them on request.
 ### Working with
 
 TypeScript · React · Next.js · Node · Prisma · PostgreSQL · Supabase ·
-Tailwind · Python · pandas · scikit-learn · Flutter · Firebase
+Tailwind · Capacitor · Python · pandas · scikit-learn
 
 ### Certifications
 
