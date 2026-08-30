@@ -1,44 +1,50 @@
-## William Koopman
+# William Koopman
 
-Development practitioner in Springbok, Northern Cape, South Africa.
+**Local economic development practitioner building practical software for public-interest and small-business workflows.**
 
-I work in local economic development — SMME advisory, grant administration,
-compliance and M&E across rural Northern Cape communities, much of it linked to
-the renewable energy sector. I build software for the problems I meet in that
-work: grant funds administered on spreadsheets, small businesses invoicing by
-hand, municipal issues with nowhere to go.
+I am based in Springbok, Northern Cape, South Africa. My professional work spans SMME advisory, grant administration, compliance and monitoring and evaluation across rural communities, much of it linked to the renewable-energy sector.
 
-That's the thread through most of what's here. The domain came first; the code
-followed.
+I build software for the operational problems I meet in that work: grant funds administered on spreadsheets, small businesses invoicing by hand, job searches that are hard to audit, and municipal issues with nowhere structured to go. The domain came first; the code followed.
 
-### Projects
+## Public work
 
-| Project | What it does | Built with |
+### [SpaceX Launch Outcome Prediction](https://github.com/tobeyxp/ibm-data-science-capstone)
+
+IBM Data Science Professional Certificate capstone coursework. Seven notebooks cover API collection, web scraping, data wrangling, visual and SQL EDA, Folium geospatial analysis, and four tuned classifiers. The repository explicitly separates course structure from my implementation and discusses the limits of its 18-row test set.
+
+`Python` `pandas` `scikit-learn` `SQL` `Folium` `Jupyter`
+
+## Selected private projects
+
+These repositories remain private while I prepare them for an appropriate release. I can provide a focused code walkthrough or demo during a recruitment process.
+
+| Project | Problem and engineering focus | Stack |
 |---|---|---|
-| **[fund-manager](https://github.com/tobeyxp/fund-manager)** | Grant administration, compliance and M&E for SMME development funds. Configurable eligibility engine, CIPC verification with risk scoring, document expiry tracking, assessment workspace, DOCX report generation. Row-level security and POPIA column protection throughout. Ships with FundLens, a Python analytics layer measuring pipeline leakage, funding reach and concentration, and compliance risk. | Next.js, TypeScript, Supabase, PostgreSQL, Python |
-| **[inzuzo-flow](https://github.com/tobeyxp/inzuzo-flow)** | Financial management for South African SMMEs — quotes, invoices, cash sales, expenses, client records and reporting. Design language drawn from Ndebele mural art. | React, Vite, TypeScript, Supabase |
-| **[jobhunter](https://github.com/tobeyxp/jobhunter)** | Remote job discovery and application pipeline. Multi-source ingestion, fingerprint dedup, configurable eligibility filtering with live FX salary conversion, explainable scoring, and generated application packages. Every action audited. | Next.js, Prisma, PostgreSQL |
-| **[ibm-data-science-capstone](https://github.com/tobeyxp/ibm-data-science-capstone)** | Coursework. SpaceX launch-outcome prediction — API collection, web scraping, SQL EDA, folium geospatial analysis, and four classifiers compared. | Python, pandas, scikit-learn, SQL |
-| **[meridian](https://github.com/tobeyxp/meridian)** | Quote and invoice generator. | Next.js, TypeScript |
-| **[sort-dit](https://github.com/tobeyxp/sort-dit)** | Bilingual municipal service reporting app for Nama Khoi Municipality — citizens report issues, track them, and see municipal response. Ships to Android and iOS via Capacitor. | React, Vite, TypeScript, Capacitor, Supabase |
-| **[newborn-radar-pro](https://github.com/tobeyxp/newborn-radar-pro)** | Solana new-token monitor. Multi-source ingestion, candle aggregation, configurable scoring, risk-limited trade planning. | TypeScript, Solana web3.js |
+| **Fund Manager** | Grant administration, compliance, assessment, procurement and M&E, plus FundLens analytics. RLS/POPIA controls, real PostgreSQL policy checks, 185 TypeScript tests and 73 Python tests. | Next.js, TypeScript, Supabase, PostgreSQL, Python |
+| **Inzuzo Flow** | Local-first financial workspace for South African SMMEs: quotes, invoices, cash sales, expenses, clients and reporting. | React, Vite, TypeScript, Supabase |
+| **JobHunter** | Explainable remote-job ingestion, eligibility filtering, scoring and auditable application-package generation. | Next.js, Prisma, PostgreSQL |
+| **Meridian** | Multi-company quote and invoice lifecycle workspace with server actions and Drizzle. | Next.js, TypeScript, PostgreSQL, Supabase |
+| **sort-dit** | Bilingual municipal service reporting for residents and officials, packaged for Android/iOS. | React, Vite, Capacitor, Supabase |
+| **Newborn Radar Pro** | Experimental Solana token monitor with multi-source ingestion, scoring and risk-limited manual/live execution modes. | TypeScript, Solana web3.js, Jest |
+| **The Tiebreaker** | Structured AI-assisted pros/cons, SWOT and option comparison behind a server-side provider boundary. | React, TypeScript, Express, Gemini |
 
-Most of these are private while I tidy them up. Happy to walk through any of
-them on request.
+## Engineering approach
 
-### Working with
+- Translate real operational rules into explicit workflows and data models.
+- Prefer explainable decisions, audit trails and visible limitations.
+- Treat privacy, row-level authorisation and secret handling as design concerns.
+- Ship repeatable checks: CI, type checking, tests, database smoke tests and honest setup documentation.
 
-TypeScript · React · Next.js · Node · Prisma · PostgreSQL · Supabase ·
-Tailwind · Capacitor · Python · pandas · scikit-learn
+## Working with
 
-### Certifications
+TypeScript · React · Next.js · Node.js · Prisma · Drizzle · PostgreSQL · Supabase · Tailwind CSS · Capacitor · Python · pandas · scikit-learn
 
-- **[IBM Data Science Professional Certificate](https://coursera.org/verify/professional-cert/8AN7IW7CHZQP)** — 12 courses: Python, SQL, data analysis and visualisation, machine learning, capstone (2026)
-- **[Google AI Professional Certificate](https://coursera.org/verify/professional-cert/J4N50TDTJJ6V)** — 7 courses (2026)
+## Certifications
+
+- [IBM Data Science Professional Certificate](https://coursera.org/verify/professional-cert/8AN7IW7CHZQP) — 12 courses covering Python, SQL, data analysis, visualisation, machine learning and the capstone (2026)
+- [Google AI Professional Certificate](https://coursera.org/verify/professional-cert/J4N50TDTJJ6V) — 7 courses (2026)
 - Facilitator, Assessor and Moderator Certificates of Competence — NQF Level 5
 
-### Also
+Afrikaans (native) · English · BSW (Hons), Stellenbosch University
 
-Afrikaans (native) · English. BSW (Hons), Stellenbosch.
-
-📫 tobeyxp@gmail.com
+Contact: tobeyxp@gmail.com
